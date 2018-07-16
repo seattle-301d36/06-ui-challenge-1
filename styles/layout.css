@@ -1,8 +1,8 @@
-body div {
-  box-sizing: border-box;
-  border: solid black 1px;
-}
-#a{
+
+
+.verticalCenterMobile{
+  margin-top:90px;
+}#a{
   height: 75px;
   width: auto;
 }
@@ -42,6 +42,7 @@ body div {
   width: auto;
   height: 80px;
 }
+
 @media (min-width: 768px){
  body{
   display: grid;
@@ -57,7 +58,6 @@ body div {
     float: left;
     grid-column: 1;
     grid-row: 2 / 5;
-
   }
   #c{
     grid-column: 2 / 4;
@@ -95,5 +95,12 @@ body div {
     width: auto;
     height: 80px;
     grid-column: 2 / 6;
+  }
+  .verticalCenterDesktop{
+    display: inline-block;
+    margin-top: 100px;
+  }
+  #bSpan{
+    margin-top: 270px;
   }
 }

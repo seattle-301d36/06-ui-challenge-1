@@ -1,0 +1,9 @@
+body div {
+  box-sizing: border-box;
+  border: solid black 1px;
+  text-align: center;
+}
+span{
+  display: inline-block;
+  margin-top: 3%;
+}
