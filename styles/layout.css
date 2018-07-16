@@ -1,0 +1,106 @@
+
+
+.verticalCenterMobile{
+  margin-top:90px;
+}#a{
+  height: 75px;
+  width: auto;
+}
+#b{
+  width: auto;
+    height: 150px;
+}
+#c{
+  width: auto;
+  height: 125px;
+}
+#d{
+  width: auto;
+  height: 125px;
+}
+#e{
+  float: left;
+  width: 50%;
+  height: 250;
+}
+#f{
+  width: 50%;
+  height: 250;
+  display: grid;
+}
+#g{
+  float: left;
+  width: 50%;
+  height: 250;
+}
+#h{
+  width: 50%;
+  height: 250;
+  display: grid;
+}
+#i{
+  width: auto;
+  height: 80px;
+}
+
+@media (min-width: 768px){
+ body{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  }
+  #a{
+    height: 100px;
+    grid-column: 1 / 6;
+  }
+  #b{
+    width: auto;
+    height: auto;
+    float: left;
+    grid-column: 1;
+    grid-row: 2 / 5;
+  }
+  #c{
+    grid-column: 2 / 4;
+    height: 200px;
+    float: left;
+  }
+  #d{
+    grid-column: 4 / 6;
+    height: 200px;
+    width: auto
+  }
+  #e{
+    float: left;
+    grid-column: 2;
+    height: 250;
+    width: auto;
+  }
+  #f{
+    grid-column: 3;
+    height: 250;
+    width: auto;
+  }
+  #g{
+    float: left;
+    grid-column: 4;
+    height: 250;
+    width: auto;
+  }
+  #h{
+    grid-column: 5;
+    height: 250;
+    width: auto;
+  }
+  #i{
+    width: auto;
+    height: 80px;
+    grid-column: 2 / 6;
+  }
+  .verticalCenterDesktop{
+    display: inline-block;
+    margin-top: 100px;
+  }
+  #bSpan{
+    margin-top: 270px;
+  }
+}
