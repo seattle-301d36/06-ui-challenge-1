@@ -1,0 +1,29 @@
+div, section {
+    font-size: 0;
+    position: relative;
+}
+
+span {
+    font: 8px "Fira Sans", sans-serif;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    color: aqua;
+}
+
+#a {
+    background-image: url("https://placehold.it/480x75/111");
+}
+
+@media only screen and (min-width: 768px) {
+    .top {
+        width: auto;
+    }
+    .left {
+        float: left;
+        width: 10%;
+    }
+    .inline-for-desktop {
+        display: inline;
+    }
+}
